@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="savespacecss.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--cette balise pour que e design s'adapte à la taille de l'écran??-->
+    <title>SaveSpace</title>
+  </head>
+  <body>
+    <div>
+      <!--Améliorer mon choix pour les noms des class, attributs etc et mieux gérer l'alignement.
+      je voulais directement intégrer les balises SVG, mais c'était trop lourd-->
+      <div class="header">
+        <img src="frame129.svg" class="logo"> 
+        <!--position absolue pour le logo, car il modifiait le positionnement des autres éléments, 
+          mais je ne sais pas encore pourquoi-->
+        <article class="menu"> <!--On peut déclarer le menu avec li. à modifier?-->
+          <a href="">Home</a>
+          <a href="">Save</a>
+          <a href="">Business</a>
+          <a href="">Blog</a>
+          <a href="">Contact Us</a>
+        </article>
+        <article class="bouton"> <!--changer les balises button et rajouter l'action -->
+          <button type="submit" class="login">Log In</button>
+          <button type="submit">Create Free Account</button>
+        </article>
+      </div>
+      <div class="main firstmain">
+        <div class="get">
+          <h1>You Don't Save, <div id="save">We Save!</div></h1> <!--trouver un moyen de modifier l'apparence du div id="save" plutard-->
+          <h1>Your Money, Your Terms.</h1><br />
+          <p>
+            Disrupting the traditional financial sector by offering better
+            financial<br>solutions, while staying true to the human values of
+            trust, honesty,<br> and fairness. Secure your future with our secure
+            investments.
+          </p>
+          <button type="submit" class="content-account">Create Free Account</button> <br />
+        <button type="submit" class="login1"><img src="apple-logo.svg" class="icon"> Get on Apple</button>
+        <button type="submit" class="login1"><img src="playstore-logo.svg" class="icon"> Get on Android</button>
+        <!--difficie d'aligner les icones. Je n'ai pas encore trouver la solution. -->
+        </div>
+        <div>
+          <img src="group64.svg" class="group64">
+        </div>
+      </div>
+      <div class="main">
+        <div><img src="571.png" class="img-main2"></div>
+        <div class="get get1">
+          <h1>Rewarding Your Every Step Of Financial journey</h1><br>
+          <p>
+            We have your back! You can count on us too. 
+            We want to give you the freedom of opening a save and 
+            secure savings and investment account with  ₦0.
+            <ul class="step">
+              <!--même problématique que les logos apple et playstore-->
+              <li><img src="user-add.svg" class="add"><p class="add-content">Create a SaveSpace account to get started. It’s free!!!</p></li>
+              <li><img src="card-add.svg" class="add"><p class="add-content">Link your bank account to your SaveSpace account. Don’t worry <br>your details are safe with us.</p></li>
+              <li><img src="wallet-add.svg" class="add"><p class="add-content">Start saving!!! You don’t have to worry about late payments, you<br>can tell us to automatically save for you.</p></li>
+              <li><img src="people.svg" class="add"><p class="add-content">Participate in thrifts (ajo, esusu and adashe) with your family and<br>friends. Create a thrift plan and invite your friends to join you.</p></li>
+            </ul>
+          </p><br>
+          <button type="submit" class="content-account">Try For Free</button>
+        </div>
+      </div>
+      <div class="main learn">
+        <div class="get get1">
+          <h1>SaveSpace, Your all in one <br> savings application.</h1><br>
+          <p>
+            <ul class="step">
+              <li>SaveSpace allows you to track your transactions quick and easily. </li>
+              <li>SaveSpace products and services are complete and varies in all <br>segments according to users needs.</li>
+              <li>User friendly and easy navigation savings and investment mobile app.</li>
+            </ul>
+          </p><br>
+          <button type="submit" class="content-account">Try For Free</button>
+        </div>
+        <div><img src="group73.svg" class="group73"></div><!--note pour plutard: reproduire cette image en CSS-->
+      </div>
+      <div class="main content-learn">
+        <div><img src="group74.svg" class="group74"></div>
+        <div class="get get1">
+          <h1>What else can you do with SaveSpace?</h1><br>
+          <p>
+            <ul class="step more">
+              <li>Are you scared of participating in ajo, esusu or adashe? <br> SaveSpace allows you participate in thrift worry free. </li>
+              <li>Accept payments from all banks. Several features on the app<br> ensure maximum guarantee and transparency.</li>
+              <li>SaveSpace allows you to invest your money in different<br>industries, with mouth watering ROI.</li>
+            </ul>
+          </p><br>
+          <button type="submit" class="content-account">Learn More</button>
+        </div>
+      </div>
+      <div class="main">
+        <div class="get get1">
+          <h1>Stay Focused on Your<br> Financial Goals</h1><br>
+          <p>Improve your financial goals with custom goals that keep you<br> going. 
+            Save for a home, gadgets, car, education, conquer debt<br> and be on your way to financial indepence.</p><br>
+              <img src="Ellipse24.svg" class="ellipse">
+                <p class="stu">“SaveSpace helped me reduce my spending habit. 
+                I<br>needed money for my house rent so I started saving<br> with SaveSpace,
+                 I was able to save with discipline.”<br><b>Ade Lola - Student</b></p> 
+                 <!--problème d'alignement de stu. essayer la position absolue? IL faut vraiment que je travaille le positionnement-->
+        </div>
+        <div><img src="frame159.png" class="frame159"></div>
+      </div>
+      
+      <div class="footer">
+        <section class="rx">
+          <!--même problématique qu'avec le logo donc... La raison m'est encore inconue-->
+          <img src="frame143.svg" class="logo-footer">
+          <p>SaveSpace is the world largest and<br> most secure digital savings service.</p>
+          <!--insérer les icônes des réseaux sociaux-->
+          <a href="#"><img src="facebook.svg"></a>
+          <a href="#"><img src="twitter.svg"></a>
+          <a href="#"><img src="instagram.svg"></a>
+        </section>
+        <section class="info">
+          <div class="company">
+            <h3>Company</h3>
+            <ul class="navigation">
+              <li><a href="">Career</a></li>
+              <li><a href="">SaveSpace blog</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Our story</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="product">
+            <h3>Product</h3>
+            <ul class="navigation">
+              <li><a href="">Features</a></li>
+              <li><a href="">What's new?</a></li>
+              <li><a href="">Coming soon</a></li>
+              <li><a href="">SaveSpace guide</a></li>
+            </ul>
+          </div>
+          <div class="resources">
+            <h3>Resources</h3>
+            <ul class="navigation">
+              <li><a href="">Forum</a></li>
+              <li><a href="">SaveSpace community</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="about">
+            <h3>About</h3>
+            <ul class="navigation">
+              <li><a href="">Support</a></li>
+              <li><a href="">Terms of use</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <p class="copyright">© 2022 SaveSpace - Made with  <img src="heart.svg" class="heart"></p>
+      </div> 
+      
+    </div>
+  </body>
+</html>
